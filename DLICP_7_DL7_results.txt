@@ -1,0 +1,136 @@
+#3
+# Parameters
+learning_rate = 0.0001 # 3.a (0.001 changed to .0001)
+training_iters = 15000 # 3.a (10000 changed to 15000)
+display_step = 1200    # 3.a (1000  changed to 1200)
+n_input = 4           # 3.a (3     changed to 4)
+
+Iter= 1200, Average Loss= 8.120618, Average Accuracy= 3.50%
+[';', 'then', 'she', 'looked'] - [at] vs [was]
+Iter= 2400, Average Loss= 5.403042, Average Accuracy= 4.83%
+['tunnel', 'for', 'some', 'way,'] - [and] vs [,]
+Iter= 3600, Average Loss= 4.644178, Average Accuracy= 8.42%
+['a', 'watch', 'to', 'take'] - [out] vs [to]
+Iter= 4800, Average Loss= 4.363778, Average Accuracy= 7.83%
+['`', 'Oh', 'dear', '!'] - [Oh] vs [or]
+Iter= 6000, Average Loss= 4.050878, Average Accuracy= 11.75%
+['in', 'her', 'own', 'mind'] - [(] vs [considering]
+Iter= 7200, Average Loss= 3.855063, Average Accuracy= 14.33%
+['it', 'into', 'one', 'of'] - [the] vs [the]
+Iter= 8400, Average Loss= 3.402528, Average Accuracy= 21.08%
+['noticed', 'that', 'they', 'were'] - [filled] vs [and]
+Iter= 9600, Average Loss= 3.706592, Average Accuracy= 19.83%
+['not', 'a', 'moment', 'to'] - [think] vs [pop]
+Iter= 10800, Average Loss= 2.858733, Average Accuracy= 27.33%
+['-', 'pocket', ',', 'or'] - [a] vs [a]
+Iter= 12000, Average Loss= 3.436200, Average Accuracy= 27.58%
+['!', 'Oh', 'dear', '!'] - [I] vs [she]
+Iter= 13200, Average Loss= 2.992677, Average Accuracy= 29.50%
+['Alice', '`', 'without', 'pictures'] - [or] vs [it]
+Iter= 14400, Average Loss= 2.531495, Average Accuracy= 38.83%
+['was', 'empty', ':', 'she'] - [did] vs [did]
+Optimization Finished!
+Elapsed time:  4.050497015317281 min
+Run on command line.
+4 words: alice is a what
+Word not in dictionary
+4 words: she was in the
+she was in the and and and and and and and and and and and and and and and and and and and and and and and and and and
+and and and and and and
+
+
+#4
+
+n_hidden = 800     # 4 changed from 512
+n_input = 2        # 4 changed from 3
+Iter= 1000, Average Loss= 8.250560, Average Accuracy= 1.90%
+['hung', 'upon'] - [pegs] vs [and]
+Iter= 2000, Average Loss= 5.479848, Average Accuracy= 4.00%
+['going', 'to'] - [happen] vs [for]
+Iter= 3000, Average Loss= 4.600569, Average Accuracy= 2.80%
+['so', 'suddenly'] - [that] vs [the]
+Iter= 4000, Average Loss= 5.075671, Average Accuracy= 3.70%
+['time', 'to'] - [see] vs [had]
+Iter= 5000, Average Loss= 4.558779, Average Accuracy= 6.50%
+['and', 'then'] - [hurried] vs [it]
+Iter= 6000, Average Loss= 5.063815, Average Accuracy= 3.80%
+['!', "'"] - [(] vs [own]
+Iter= 7000, Average Loss= 4.837321, Average Accuracy= 5.00%
+[',', 'when'] - [suddenly] vs [suddenly]
+Iter= 8000, Average Loss= 4.928630, Average Accuracy= 5.10%
+["'", 'thought'] - [Alice] vs [Alice]
+Iter= 9000, Average Loss= 4.864447, Average Accuracy= 4.10%
+['to', 'get'] - [very] vs [it]
+Iter= 10000, Average Loss= 4.622348, Average Accuracy= 4.70%
+['as', 'she'] - [passed] vs [sides]
+Optimization Finished!
+Elapsed time:  3.775696698824565 min
+Run on command line.
+2 words: alice was
+Word not in dictionary
+2 words: to get
+to get it looked to looked it looked to looked it looked to looked it looked to looked it looked to looked it looked to
+looked it looked to looked it looked to looked
+
+# 5
+rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden),rnn.BasicLSTMCell(n_hidden)])
+Iter= 1000, Average Loss= 5.621193, Average Accuracy= 3.30%
+['saw', 'maps', 'and'] - [pictures] vs [she]
+Iter= 2000, Average Loss= 4.798740, Average Accuracy= 5.10%
+['slowly', ',', 'for'] - [she] vs [the]
+Iter= 3000, Average Loss= 4.721722, Average Accuracy= 6.90%
+['considering', 'how', 'in'] - [the] vs [hedge]
+Iter= 4000, Average Loss= 4.806591, Average Accuracy= 6.50%
+['had', 'never', 'before'] - [seen] vs [she]
+Iter= 5000, Average Loss= 4.546418, Average Accuracy= 10.80%
+['dear', '!', 'I'] - [shall] vs [Oh]
+Iter= 6000, Average Loss= 4.122745, Average Accuracy= 17.90%
+['very', 'sleepy', 'and'] - [stupid] vs [could]
+Iter= 7000, Average Loss= 4.462069, Average Accuracy= 14.10%
+['or', 'twice', 'she'] - [had] vs [wonder]
+Iter= 8000, Average Loss= 4.164966, Average Accuracy= 20.20%
+['the', 'shelves', 'as'] - [she] vs [the]
+Iter= 9000, Average Loss= 4.694513, Average Accuracy= 12.70%
+['going', 'to', 'happen'] - [next] vs [she]
+Iter= 10000, Average Loss= 4.098465, Average Accuracy= 20.50%
+['a', 'tunnel', 'for'] - [some] vs [moment]
+Optimization Finished!
+Elapsed time:  5.583371102809906 min
+Run on command line.
+3 words: to get very
+to get very of large across some like like like like like like like like like like like like like like like like like
+ like like like like like like like like like like like
+
+Final Test -- Learning Rate = 0.001 -- Training Iterations = 15000 -- Display Steps = 1500 -- Number Hidden = 412
+              rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden),rnn.BasicLSTMCell(n_hidden)])
+              This final test is an attempt to use the data from previous optimizations to find the best prediction for
+              the data set...
+
+Iter= 1500, Average Loss= 4.839709, Average Accuracy= 4.87%
+['look', 'down', 'and'] - [make] vs [went]
+Iter= 3000, Average Loss= 2.619142, Average Accuracy= 32.53%
+['.', 'In', 'another'] - [moment] vs [moment]
+Iter= 4500, Average Loss= 3.672415, Average Accuracy= 22.07%
+['but', 'at', 'the'] - [time] vs [time]
+Iter= 6000, Average Loss= 2.618988, Average Accuracy= 37.47%
+['stupid', ')', ','] - [whether] vs [book]
+Iter= 7500, Average Loss= 2.238794, Average Accuracy= 47.73%
+['of', 'killing', 'somebody'] - [,] vs [,]
+Iter= 9000, Average Loss= 2.100733, Average Accuracy= 52.07%
+['going', 'to', 'happen'] - [next] vs [down]
+Iter= 10500, Average Loss= 2.072463, Average Accuracy= 51.87%
+['.', 'In', 'another'] - [moment] vs [,]
+Iter= 12000, Average Loss= 1.730770, Average Accuracy= 58.80%
+['over', 'afterwards', ','] - [it] vs [it]
+Iter= 13500, Average Loss= 1.623853, Average Accuracy= 63.33%
+['in', 'her', 'own'] - [mind] vs [mind]
+Iter= 15000, Average Loss= 1.905268, Average Accuracy= 58.40%
+['`', 'ORANGE', 'MARMALADE'] - ['] vs [']
+Optimization Finished!
+Elapsed time:  5.672954698403676 min
+Run on command line.
+3 words: once or twice
+once or twice and had twice pictures or conversations and had twice pictures or conversations and had twice pictures
+or conversations and had twice pictures or conversations and had twice pictures or conversations and had
+
+
