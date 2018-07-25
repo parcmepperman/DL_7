@@ -1,0 +1,117 @@
+Iter= 1000, Average Loss= 4.042497, Average Accuracy= 18.50%
+['feedback', 'loops.', 'Such'] - [controlled] vs [incorporates]
+Iter= 2000, Average Loss= 1.699797, Average Accuracy= 53.10%
+['loops.', 'Such', 'controlled'] - [states] vs [time]
+Iter= 3000, Average Loss= 1.230467, Average Accuracy= 66.30%
+['storage', 'can', 'be'] - [under] vs [under]
+Iter= 4000, Average Loss= 1.164351, Average Accuracy= 67.10%
+['control', 'by', 'the'] - [neural] vs [neural]
+Iter= 5000, Average Loss= 0.987694, Average Accuracy= 71.40%
+['impulse', 'recurrent', 'networks'] - [can] vs [can]
+Iter= 6000, Average Loss= 0.874173, Average Accuracy= 71.30%
+['memory,', 'and', 'are'] - [part] vs [part]
+Iter= 7000, Average Loss= 0.847314, Average Accuracy= 74.70%
+['gated', 'state', 'or'] - [gated] vs [are]
+Iter= 8000, Average Loss= 0.650397, Average Accuracy= 81.30%
+['can', 'have', 'additional'] - [stored] vs [stored]
+Iter= 9000, Average Loss= 0.658798, Average Accuracy= 80.30%
+['infinite', 'impulse', 'recurrent'] - [networks] vs [networks]
+Iter= 10000, Average Loss= 0.676593, Average Accuracy= 80.20%
+['are', 'referred', 'to'] - [as] vs [as]
+Optimization Finished!
+
+-----------Hyperparameter change-----------
+# Changed to 0.01
+learning_rate = 0.001
+# Changed to 1000
+training_iters = 10000
+# Changed to 100
+display_step = 1000
+# changed to 2
+n_input = 3
+
+
+Iter= 100, Average Loss= 11.409382, Average Accuracy= 3.00%
+['if', 'that'] - [incorporates] vs [or]
+Iter= 200, Average Loss= 4.101005, Average Accuracy= 7.00%
+['storage', 'can'] - [be] vs [the]
+Iter= 300, Average Loss= 4.203345, Average Accuracy= 12.00%
+['or', 'gated'] - [memory,] vs [be]
+Iter= 400, Average Loss= 2.676499, Average Accuracy= 30.00%
+['can', 'also'] - [be] vs [be]
+Iter= 500, Average Loss= 2.774046, Average Accuracy= 38.00%
+['finite', 'impulse'] - [and] vs [neural]
+Iter= 600, Average Loss= 3.815244, Average Accuracy= 15.00%
+['delays', 'or'] - [has] vs [recurrent]
+Iter= 700, Average Loss= 2.980908, Average Accuracy= 24.00%
+['the', 'storage'] - [can] vs [neural]
+Iter= 800, Average Loss= 2.422040, Average Accuracy= 39.00%
+['gated', 'state'] - [or] vs [network.]
+Iter= 900, Average Loss= 1.763893, Average Accuracy= 56.00%
+['graph,', 'if'] - [that] vs [or]
+Iter= 1000, Average Loss= 2.317263, Average Accuracy= 37.00%
+['networks', 'can'] - [have] vs [the]
+Optimization Finished!
+Elapsed time:  10.577636480331421 sec
+Run on command line.
+
+----------n_input and n_hidden----------
+# changed to 4
+n_input = 4
+# changed to 300
+n_hidden = 300
+
+Iter= 1000, Average Loss= 3.362505, Average Accuracy= 24.20%
+['storage', 'can', 'be', 'under'] - [direct] vs [direct]
+Iter= 2000, Average Loss= 1.277356, Average Accuracy= 66.00%
+['networks', 'can', 'have', 'additional'] - [stored] vs [stored]
+Iter= 3000, Average Loss= 0.762320, Average Accuracy= 78.10%
+['long', 'short-term', 'memorys', 'and'] - [gated] vs [gated]
+Iter= 4000, Average Loss= 0.561618, Average Accuracy= 82.50%
+['and', 'the', 'storage', 'can'] - [be] vs [be]
+Iter= 5000, Average Loss= 0.448444, Average Accuracy= 85.70%
+['infinite', 'impulse', 'recurrent', 'networks'] - [can] vs [can]
+Iter= 6000, Average Loss= 0.353894, Average Accuracy= 88.00%
+['controlled', 'states', 'are', 'referred'] - [to] vs [to]
+Iter= 7000, Average Loss= 0.330258, Average Accuracy= 88.90%
+['are', 'part', 'of', 'long'] - [short-term] vs [gated]
+Iter= 8000, Average Loss= 0.279610, Average Accuracy= 91.60%
+['delays', 'or', 'has', 'feedback'] - [loops.] vs [loops.]
+Iter= 9000, Average Loss= 0.270929, Average Accuracy= 90.80%
+['network.', 'The', 'storage', 'can'] - [also] vs [also]
+Iter= 10000, Average Loss= 0.280758, Average Accuracy= 90.80%
+['short-term', 'memorys', 'and', 'gated'] - [recurrent] vs [recurrent]
+Optimization Finished!
+Elapsed time:  53.56990575790405 sec
+Run on command line.
+4 words: 
+
+--------Changed from one step to two step------------------------
+
+Iter= 1000, Average Loss= 3.086762, Average Accuracy= 21.50%
+['short-term', 'memorys', 'and'] - [gated] vs [gated]
+Iter= 2000, Average Loss= 1.627968, Average Accuracy= 51.90%
+['and', 'gated', 'recurrent'] - [units.] vs [units.]
+Iter= 3000, Average Loss= 1.129245, Average Accuracy= 67.80%
+['if', 'that', 'incorporates'] - [time] vs [time]
+Iter= 4000, Average Loss= 0.879892, Average Accuracy= 75.50%
+['and', 'infinite', 'impulse'] - [recurrent] vs [recurrent]
+Iter= 5000, Average Loss= 0.941037, Average Accuracy= 72.70%
+['and', 'gated', 'recurrent'] - [units.] vs [units.]
+Iter= 6000, Average Loss= 0.830455, Average Accuracy= 72.30%
+['that', 'incorporates', 'time'] - [delays] vs [controlled]
+Iter= 7000, Average Loss= 0.633728, Average Accuracy= 78.90%
+['Both', 'finite', 'impulse'] - [and] vs [and]
+Iter= 8000, Average Loss= 0.653987, Average Accuracy= 79.60%
+['to', 'as', 'gated'] - [state] vs [state]
+Iter= 9000, Average Loss= 0.593092, Average Accuracy= 80.80%
+['or', 'has', 'feedback'] - [loops.] vs [that]
+Iter= 10000, Average Loss= 0.621608, Average Accuracy= 78.80%
+['memorys', 'and', 'gated'] - [recurrent] vs [recurrent]
+Optimization Finished!
+Elapsed time:  5.543600169817607 min
+Run on command line.
+3 words: networks can have
+networks can have additional stored state, state, state, and the storage can be under direct control storage the neural network. The storage the neural network. The storage the neural network. The storage the neural network.
+3 words: 
+
